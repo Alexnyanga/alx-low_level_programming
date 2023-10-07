@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <unistd.h>
+#include <unistd>
 /**
- * main -  a program to print wothout using  printf nad puts
- * REturn: (1) always
+ * main - print without printf and puts
+ * Return: (1) always
  */
 int main(void)
 {
