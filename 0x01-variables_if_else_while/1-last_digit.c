@@ -5,6 +5,7 @@
 /* betty style doc for function main goes there */
 /**
  * main - a program to print n with strings
+ * Return: (0)
  */
 int main(void)
 {
