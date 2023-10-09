@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 /**
  * main - printing upper and lower alphabets
  * Return: (0)
@@ -17,5 +17,6 @@ int main(void)
 	for (a = 'A'; a <= 'Z'; a++)
 	putchar(a);
 	putchar('\n');
+
 	return (0);
 }
