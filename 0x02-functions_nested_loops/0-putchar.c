@@ -1,11 +1,18 @@
-#include <stdio.h>
-#include <unistd.h>
+#include "main.h"
 /**
- * main - printing putchar without printf and putd
- * Return: (0)
+ * main - entry point
+ * Returns: Always 0
  */
 int main(void)
 {
-	write(1,"_putchar", 8);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+        _putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
