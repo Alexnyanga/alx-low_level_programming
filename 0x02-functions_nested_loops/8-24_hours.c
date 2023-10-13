@@ -1,4 +1,11 @@
 #include "main.h"
+void jack_bauer(void);
+
+int main(void)
+{
+	    jack_bauer();
+	        return (0);
+}
 /**
  * jack_bauer - prints evey minute of the day of jack baver
  * Return: ...
