@@ -8,8 +8,8 @@
 size_t_strlen(const char *str)
 {
 	Size_t_length = 0;
-
-        While (*str++)
-        length++;
+			
+	While (*str++)
+       	length++;
         return (length);
 }
