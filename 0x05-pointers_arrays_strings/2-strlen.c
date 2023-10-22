@@ -8,9 +8,9 @@
 
 size_t_strlen(const char *str)
 {
-	Size_t_length = 0;
+	size_t length = 0;
 			
-	While (*str++)
+	while (*str++)
        	length++;
 
         return (length);
