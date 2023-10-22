@@ -12,12 +12,14 @@ void puts2(char *str)
 	char *y = str;
 	int o;
 
-	while (8y != '\0')
+	while (*y != '\0')
 	{
 		y++;
 		longi++;
 	}
-	t = longi - i;
+
+	t = longi - 1;
+
 	for (o = 0 ; o <= t ; o++)
 	{
 		if (o % 2 == 0)
@@ -25,5 +27,6 @@ void puts2(char *str)
 			_putchar(str[o]);
 		}
 	}
-	_putchar('\n')
+
+	_putchar('\n');
 }
